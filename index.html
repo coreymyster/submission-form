@@ -1,0 +1,62 @@
+<!doctype>
+<html>
+    <head>
+        <title>Book Table</title>
+    </head>
+    <body>
+        <section>
+            <table border="5" cellpadding="8" cellspacing="3">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Year</th>
+                    <th>Links</th>
+                </tr>
+                <tr>
+                    <td>Harry Potter and the Sorcerer's Stone</td>
+                    <td>J.K. Rowling</td>
+                    <td>1997</td>
+                    <td><a href="https://www.barnesandnoble.com/w/harry-potter-and-the-sorcerers-stone-j-k-rowling/1100036321#/" target="_blank">More Information</a></td>
+                </tr>
+                <tr>
+                    <td>The Davinci Code</td>
+                    <td>Dan Brown</td>
+                    <td>2003</td>
+                    <td><a href="https://www.amazon.com/Vinci-Code-Robert-Langdon/dp/0307474275" target="_blank">More information</a></td>
+                </tr>
+                <tr>
+                    <td>Misery</td>
+                    <td>Stephen King</td>
+                    <td>1987</td>
+                    <td><a href="https://www.amazon.com/Misery-Novel-Stephen-King/dp/1501156748" target="_blank">More information</a></td>
+                </tr>
+            </table>
+        </section>
+        <br />
+        <section style="width:50%;">
+            <form action="submit.php" method="post">
+                <fieldset>
+                    <legend>Submission Form</legend>
+                        <p>
+                            <label for="username">Username:</label>
+                            <input type="text" id="name">
+                        </p>
+
+                        <p>
+                            <label for="password">Password:</label>
+                            <input type="text" id="password">
+                        </p>
+
+                        <p>
+                            <textarea rows="10" cols="60" id="comment">Enter comment here</textarea>
+                        </p>
+
+                        <p>
+                            <button type="submit">Submit</button>
+                            <button type="clear">Clear</button>
+                        </p>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
